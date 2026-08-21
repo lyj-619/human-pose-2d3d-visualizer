@@ -42,11 +42,11 @@ It captures video from a webcam or local video file, detects 33 human keypoints 
 
 ### 🖼️ Demo / 效果展示
 
-![效果展示](D:\ll\桌面\Human Pose 2D3D Visualizer\效果展示.png)
+![效果展示](效果展示.png)
 
-![图片1](D:\ll\桌面\Human Pose 2D3D Visualizer\图片1.png)
+![图片1](图片1.png)
 
-![图片5](D:\ll\桌面\Human Pose 2D3D Visualizer\图片5.png)
+![图片5](图片5.png)
 
 +-------------------+-------------------+
 |     2D View       |     3D View       |
@@ -170,7 +170,7 @@ Basic workflow / 基本操作流程
 5. Record pose data or capture screenshots  
    记录姿态数据或截图保存
 
-![图片6](D:\ll\桌面\Human Pose 2D3D Visualizer\图片6.png)
+![图片6](图片6.png)
 
 ## 📂 Project Structure / 项目结构
 
