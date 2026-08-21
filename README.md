@@ -45,10 +45,8 @@ It captures video from a webcam or local video file, detects 33 human keypoints 
 <img src="图片1.png" width="800">
 <img src="图片5.png" width="800">
 
-+----------------+---------------+
-|    2D View     |   3D View     |
-|(OpenCV+Tkinter)|(Matplotlib 3D)|
-+----------------+---------------+
++-------|2D View (OpenCV+Tkinter)|3D View (Matplotlib 3D)|-------+
+
 
 
 Example:
