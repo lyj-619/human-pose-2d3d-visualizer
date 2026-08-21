@@ -63,7 +63,7 @@ Example:
 
 ## 🧠 Technical Highlights / 技术亮点
 
-1. MediaPipe Coordinate Remapping
+### 1. MediaPipe Coordinate Remapping
 
 ​	MediaPipe 坐标系重映射
 
@@ -80,7 +80,7 @@ Example:
 
 ​	MediaPipe 使用以摄像头为原点的坐标系，本项目将其转换为更适合可视化的 3D 坐标系，避免骨架“倒立”或方向混乱。
 
-2. Visibility-Aware 3D Rendering
+### 2. Visibility-Aware 3D Rendering
 
 ​	基于可见性的 3D 渲染优化
 
@@ -97,18 +97,18 @@ Example:
 
 ​	通过可见性动态调整渲染样式，提升遮挡情况下的 3D 姿态可读性。
 
-3. 3D Coordinate Normalization
+### 3. 3D Coordinate Normalization
 
 ​	3D 坐标标准化
 
 ​	To ensure stable visualization across different distances:
-1. Center using shoulder & hip landmarks  
-2. Scale by maximum joint distance  
-3. Translate to canvas center  
+      1. Center using shoulder & hip landmarks  
+      2. Scale by maximum joint distance  
+      3. Translate to canvas center  
 
 ​	通过“中心化–缩放–平移”三步标准化，解决人物远近变化导致的骨架抖动与尺度不一致问题。
 
-4. Performance-Aware Design
+### 4. Performance-Aware Design
 
 ​	面向实时性能的帧率控制
 
@@ -117,7 +117,7 @@ Example:
 
 ​	姿态检测按可配置间隔执行，而非逐帧推理，显著降低 CPU 占用，提升实时性。
 
-5. Cross-Platform Chinese Font Support
+### 5. Cross-Platform Chinese Font Support
 
 ​	跨平台中文字体适配
 
@@ -174,7 +174,7 @@ Basic workflow / 基本操作流程
 
 ## 📂 Project Structure / 项目结构
 
-human_pose_visualizer.py   # Main application (single-file implementation)
+human_pose_2d3d_gui.py   # Main application (single-file implementation)
 README.md                  # Project documentation
 
 
