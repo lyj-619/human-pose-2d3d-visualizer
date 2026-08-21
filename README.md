@@ -50,7 +50,7 @@ It captures video from a webcam or local video file, detects 33 human keypoints 
 
 +-------------------+-------------------+
 |     2D View       |     3D View       |
-|  (OpenCV + Tkinter)| (Matplotlib 3D)   |
+| (OpenCV + Tkinter)|  (Matplotlib 3D)  |
 +-------------------+-------------------+
 
 
