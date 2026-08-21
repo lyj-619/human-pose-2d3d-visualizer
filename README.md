@@ -41,6 +41,9 @@ It captures video from a webcam or local video file, detects 33 human keypoints 
       一键截图与 3D 多视角切换
 
 ### 🖼️ Demo / 效果展示
+<img src="效果展示.png" width="500">
+<img src="图片1.png" width="500">
+<img src="图片5.png" width="500">
 
 ![效果展示](效果展示.png)
 
