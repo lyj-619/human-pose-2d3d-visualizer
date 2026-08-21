@@ -41,20 +41,14 @@ It captures video from a webcam or local video file, detects 33 human keypoints 
       一键截图与 3D 多视角切换
 
 ### 🖼️ Demo / 效果展示
-<img src="效果展示.png" width="500">
-<img src="图片1.png" width="500">
-<img src="图片5.png" width="500">
+<img src="效果展示.png" width="800">
+<img src="图片1.png" width="800">
+<img src="图片5.png" width="800">
 
-![效果展示](效果展示.png)
-
-![图片1](图片1.png)
-
-![图片5](图片5.png)
-
-+-------------------+-------------------+
-|     2D View       |     3D View       |
-| (OpenCV + Tkinter)|  (Matplotlib 3D)  |
-+-------------------+-------------------+
++----------------+---------------+
+|    2D View     |   3D View     |
+|(OpenCV+Tkinter)|(Matplotlib 3D)|
++----------------+---------------+
 
 
 Example:
@@ -173,7 +167,7 @@ Basic workflow / 基本操作流程
 5. Record pose data or capture screenshots  
    记录姿态数据或截图保存
 
-![图片6](图片6.png)
+<img src="图片6.png" width="800">
 
 ## 📂 Project Structure / 项目结构
 
